@@ -1,9 +1,3 @@
-// A basic key-value database in C++17.
-// Features: SET, GET, DEL, EXISTS, KEYS, COUNT, CLEAR, persistence to a file.
-//
-// Build:  g++ -std=c++17 -O2 -o kvstore kvstore.cpp
-// Run:    ./kvstore [datafile]        (default datafile: data.db)
-
 #include <fstream>
 #include <iostream>
 #include <map>
